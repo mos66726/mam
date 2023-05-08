@@ -31,13 +31,16 @@ body{
 .ro2{
     margin: auto;
     text-align: center;
+    width: 90%;
+    /* background-color: aqua; */
 }
 
 .ro2 ul{
     
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
+    display: inline-flex;
+    /* grid-template-columns: repeat(6,1fr); */
     list-style: none;
+
     
 }
 .ro2 ul li a{
@@ -46,6 +49,9 @@ body{
     background-color: rgb(0, 136, 255);
     border: rgb(0, 136, 255) 10px solid;
     border-radius: 5px;
+    padding-left: px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .ro3{
     margin: auto;
@@ -157,13 +163,36 @@ footer{
 }
 .ro2 ul li a {
     
-    margin-left: 6px;
+    /* margin-left: 6px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: rgb(0, 136, 255);
+    border: rgb(0, 136, 255) 10px solid;
+    border-radius: 5px; */
+
     text-decoration: none;
     color: #ffffff;
     background-color: rgb(0, 136, 255);
     border: rgb(0, 136, 255) 10px solid;
     border-radius: 5px;
     
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.ro2 ul{
+    
+    display: inline-flex;
+    /* grid-template-columns: repeat(6,1fr); */
+    list-style: none;
+
+    
+}
+.ro2{
+    margin: auto;
+    text-align: center;
+    width: 90%;
+    /* background-color: aqua; */
 }
 
     
